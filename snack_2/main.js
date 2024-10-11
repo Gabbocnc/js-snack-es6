@@ -60,11 +60,17 @@ for (let i = 0; i < teams.length; i++) {
 
     //genero numeri random alla key falli subiti
     team.falli_subiti = randomNumber()
+
+    let totalPoints = []
+    totalPoints.push(team.punti, team.falli_subiti)
+    console.log(totalPoints);
+    
+
 }
 
 //Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. */
 
-const totalPoints = [
+/* const totalPoints = [
     {
         punti: teams[0].punti,
         falli_subiti : teams[0].falli_subiti
@@ -85,5 +91,5 @@ const totalPoints = [
         punti: teams[4].punti,
         falli_subiti : teams[4].falli_subiti
     }
-]
-console.log(totalPoints);
+] */
+

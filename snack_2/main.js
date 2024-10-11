@@ -62,9 +62,10 @@ for (let i = 0; i < teams.length; i++) {
     team.falli_subiti = randomNumber()
 
     //Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. */
-    let totalPoints = []
-    totalPoints.push(team.punti, team.falli_subiti)
+    let totalPoints = [];
+    totalPoints.push({teams:team.nome},{falli_subiti:team.falli_subiti})
     console.log(totalPoints);
+    
 }
 
 //Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. */

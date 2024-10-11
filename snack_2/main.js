@@ -63,7 +63,7 @@ for (let i = 0; i < teams.length; i++) {
 
     //Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. */
     let totalPoints = [];
-    totalPoints.push({nome : team.nome},{falli_subiti:team.falli_subiti})
+    totalPoints.push({nome : team.nome, falli_subiti:team.falli_subiti})
     console.log(totalPoints);
     
 }

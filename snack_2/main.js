@@ -61,11 +61,10 @@ for (let i = 0; i < teams.length; i++) {
     //genero numeri random alla key falli subiti
     team.falli_subiti = randomNumber()
 
+    //Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. */
     let totalPoints = []
     totalPoints.push(team.punti, team.falli_subiti)
     console.log(totalPoints);
-    
-
 }
 
 //Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. */
